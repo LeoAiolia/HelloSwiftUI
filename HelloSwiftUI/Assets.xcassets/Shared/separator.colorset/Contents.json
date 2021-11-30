@@ -2,8 +2,13 @@
   "colors" : [
     {
       "color" : {
-        "platform" : "universal",
-        "reference" : "systemGreenColor"
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.894",
+          "green" : "0.894",
+          "red" : "0.894"
+        }
       },
       "idiom" : "universal"
     },
@@ -16,7 +21,7 @@
       ],
       "color" : {
         "platform" : "ios",
-        "reference" : "systemPurpleColor"
+        "reference" : "separatorColor"
       },
       "idiom" : "universal"
     }

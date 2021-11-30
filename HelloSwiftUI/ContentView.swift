@@ -9,8 +9,27 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List {
+                Section(header: Text("A")) {
+                    NavigationLink(destination: HomeView()) {
+                        PageRow(title: "Home", subTitle: "Hello Home")
+                    }
+                }
+                
+                Section(header: Text("B")) {
+                    NavigationLink(destination: HomeView()) {
+                        PageRow(title: "Mine", subTitle: "Hello Mine")
+                    }
+                }
+            }.listStyle(GroupedListStyle())
+                .navigationBarTitle(Text("Example"), displayMode: .large)
+                .navigationBarItems(trailing: Button(action: {
+                    print("Tap")
+                }, label: {
+                    Text("Right").foregroundColor(.orange)
+                }))
+        }
     }
 }
 
