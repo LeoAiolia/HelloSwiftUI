@@ -12,14 +12,14 @@ struct ContentView: View {
         NavigationView {
             List {
                 Section(header: Text("A")) {
-                    NavigationLink(destination: HomeView()) {
-                        PageRow(title: "Home", subTitle: "Hello Home")
+                    NavigationLink(destination: TextView()) {
+                        PageRow(title: "Text", subTitle: "Hello Text")
                     }
                 }
                 
                 Section(header: Text("B")) {
-                    NavigationLink(destination: HomeView()) {
-                        PageRow(title: "Mine", subTitle: "Hello Mine")
+                    NavigationLink(destination: RichTextView()) {
+                        PageRow(title: "RichText", subTitle: "Hello RichText")
                     }
                 }
             }.listStyle(GroupedListStyle())

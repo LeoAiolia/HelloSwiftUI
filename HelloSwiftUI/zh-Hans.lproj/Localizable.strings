@@ -1,0 +1,9 @@
+/* 
+  Info.strings
+  HelloSwiftUI
+
+  Created by dev-yxr on 2021/11/30.
+  
+*/
+"Hello" = "你好";
+"Hello %@" = "你好 %@";
