@@ -15,6 +15,8 @@
 		B31D781C275619C50054C1F5 /* String++.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31D781B275619C50054C1F5 /* String++.swift */; };
 		B31D781E275721630054C1F5 /* RichTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31D781D275721630054C1F5 /* RichTextView.swift */; };
 		B31D7821275725EE0054C1F5 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31D7820275725EE0054C1F5 /* Person.swift */; };
+		B3A8EB5E2758AB1400B1088F /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A8EB5D2758AB1400B1088F /* LabelView.swift */; };
+		B3A8EB602758ACB100B1088F /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A8EB5F2758ACB100B1088F /* TextFieldView.swift */; };
 		B3F431942751E23A00C77A1A /* HelloSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F431932751E23A00C77A1A /* HelloSwiftUIApp.swift */; };
 		B3F431962751E23A00C77A1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F431952751E23A00C77A1A /* ContentView.swift */; };
 		B3F431982751E23B00C77A1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F431972751E23B00C77A1A /* Assets.xcassets */; };
@@ -34,6 +36,9 @@
 		B31D781B275619C50054C1F5 /* String++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String++.swift"; sourceTree = "<group>"; };
 		B31D781D275721630054C1F5 /* RichTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichTextView.swift; sourceTree = "<group>"; };
 		B31D7820275725EE0054C1F5 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		B3A8EB5C2758A57500B1088F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B3A8EB5D2758AB1400B1088F /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
+		B3A8EB5F2758ACB100B1088F /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 		B3F431902751E23A00C77A1A /* HelloSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F431932751E23A00C77A1A /* HelloSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftUIApp.swift; sourceTree = "<group>"; };
 		B3F431952751E23A00C77A1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -116,6 +121,7 @@
 		B3F431922751E23A00C77A1A /* HelloSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				B3A8EB5C2758A57500B1088F /* Info.plist */,
 				B31D780A2755F6BC0054C1F5 /* HelloSwiftUI.entitlements */,
 				B31D7816275602960054C1F5 /* Localizable.strings */,
 				B31D780D2755FBBF0054C1F5 /* Widget */,
@@ -143,6 +149,8 @@
 			children = (
 				B31D780B2755F9B40054C1F5 /* TextView.swift */,
 				B31D781D275721630054C1F5 /* RichTextView.swift */,
+				B3A8EB5D2758AB1400B1088F /* LabelView.swift */,
+				B3A8EB5F2758ACB100B1088F /* TextFieldView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -265,9 +273,11 @@
 			files = (
 				B31D781C275619C50054C1F5 /* String++.swift in Sources */,
 				B31D781927560DCD0054C1F5 /* SFSymbolsView.swift in Sources */,
+				B3A8EB5E2758AB1400B1088F /* LabelView.swift in Sources */,
 				B3F431962751E23A00C77A1A /* ContentView.swift in Sources */,
 				B31D781E275721630054C1F5 /* RichTextView.swift in Sources */,
 				B31D780F2755FBF50054C1F5 /* PageRow.swift in Sources */,
+				B3A8EB602758ACB100B1088F /* TextFieldView.swift in Sources */,
 				B31D780C2755F9B40054C1F5 /* TextView.swift in Sources */,
 				B31D7821275725EE0054C1F5 /* Person.swift in Sources */,
 				B3F431942751E23A00C77A1A /* HelloSwiftUIApp.swift in Sources */,
@@ -418,6 +428,7 @@
 				DEVELOPMENT_TEAM = X7S38PP265;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HelloSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -434,7 +445,7 @@
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -451,6 +462,7 @@
 				DEVELOPMENT_TEAM = X7S38PP265;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HelloSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -467,7 +479,7 @@
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

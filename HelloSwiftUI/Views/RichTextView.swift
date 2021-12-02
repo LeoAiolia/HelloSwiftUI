@@ -11,7 +11,7 @@ struct RichTextView: View {
     var body: some View {
         
         let person = Person(name: "张三", age: 18)
-        return VStack(alignment: .leading, spacing: 5) {
+        return VStack(alignment: .trailing, spacing: 5) {
             Text("Hello") + Text("world").foregroundColor(.red)
             Text("Hello \(Text("world").italic())")
             // LocalizedStringKey.StringInterpolation
@@ -20,6 +20,18 @@ struct RichTextView: View {
             Text("A \("wonderful".bold.italic()) serenity \("has taken".italic) \("possession".foregroundColor(.red)) of my \("entire soul".underline).")
             Text("1.5 + 1.5 = \(1.5 + 1.5, specifier: "%.1f")")
             Text("a man \(person)")
+            if #available(macCatalyst 15.0, *) {
+                Text("Stay Hungry, Stay Foolish!")
+                    .font(.title2).bold()
+                    .foregroundStyle(.linearGradient(
+                        colors: [.orange, .yellow, .blue, .purple],
+                        startPoint: .topLeading, endPoint: .bottomTrailing))
+                    .textSelection(.enabled)
+            }
+            
+            Text("百度").onTapGesture {
+                print("tap baidu")
+            }
         }
     }
 }
