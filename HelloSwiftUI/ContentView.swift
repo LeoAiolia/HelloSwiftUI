@@ -24,6 +24,15 @@ struct ContentView: View {
                     NavigationLink(destination: TextFieldView()) {
                         PageRow(title: "TextField", subTitle: "Hello TextField")
                     }
+                    NavigationLink(destination: ImageListView()) {
+                        PageRow(title: "Image", subTitle: "Hello Image")
+                    }
+                    NavigationLink(destination: ButtonView()) {
+                        PageRow(title: "Button", subTitle: "Hello Button")
+                    }
+                    NavigationLink(destination: ToolbarView()) {
+                        PageRow(title: "ToolBar", subTitle: "Hello ToolBar")
+                    }
                 }
                 
                 Section(header: Text("B")) {

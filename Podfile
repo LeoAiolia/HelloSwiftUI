@@ -7,7 +7,7 @@ target 'HelloSwiftUI' do
 
   # Pods for HelloSwiftUI
 
-  pod 'Kingfisher', '~> 5.15.0'
+  pod 'Kingfisher', '~> 7.0'
   pod 'Moya', '~> 15.0.0'
   pod 'SwiftyJSON', '~> 5.0.1'
   pod 'RxSwift', '~> 6.2.0'
