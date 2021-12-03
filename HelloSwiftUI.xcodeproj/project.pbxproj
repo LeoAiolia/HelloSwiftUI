@@ -22,6 +22,11 @@
 		B3A8EB682759B8EA00B1088F /* PickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A8EB672759B8EA00B1088F /* PickView.swift */; };
 		B3A8EB6A2759B90800B1088F /* IndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A8EB692759B90800B1088F /* IndicatorView.swift */; };
 		B3A8EB6C2759C65A00B1088F /* CustomModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A8EB6B2759C65A00B1088F /* CustomModifierView.swift */; };
+		B3A8EB6E2759CB4100B1088F /* UIKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A8EB6D2759CB4100B1088F /* UIKitView.swift */; };
+		B3A8EB702759ED4F00B1088F /* PropertyWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A8EB6F2759ED4F00B1088F /* PropertyWrapperView.swift */; };
+		B3A8EB72275A097A00B1088F /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A8EB71275A097A00B1088F /* AlertView.swift */; };
+		B3A8EB74275A0DA200B1088F /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A8EB73275A0DA200B1088F /* GridView.swift */; };
+		B3A8EB76275A14F600B1088F /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A8EB75275A14F600B1088F /* ListView.swift */; };
 		B3F431942751E23A00C77A1A /* HelloSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F431932751E23A00C77A1A /* HelloSwiftUIApp.swift */; };
 		B3F431962751E23A00C77A1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F431952751E23A00C77A1A /* ContentView.swift */; };
 		B3F431982751E23B00C77A1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F431972751E23B00C77A1A /* Assets.xcassets */; };
@@ -49,6 +54,11 @@
 		B3A8EB672759B8EA00B1088F /* PickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickView.swift; sourceTree = "<group>"; };
 		B3A8EB692759B90800B1088F /* IndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorView.swift; sourceTree = "<group>"; };
 		B3A8EB6B2759C65A00B1088F /* CustomModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifierView.swift; sourceTree = "<group>"; };
+		B3A8EB6D2759CB4100B1088F /* UIKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitView.swift; sourceTree = "<group>"; };
+		B3A8EB6F2759ED4F00B1088F /* PropertyWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperView.swift; sourceTree = "<group>"; };
+		B3A8EB71275A097A00B1088F /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		B3A8EB73275A0DA200B1088F /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		B3A8EB75275A14F600B1088F /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		B3F431902751E23A00C77A1A /* HelloSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F431932751E23A00C77A1A /* HelloSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftUIApp.swift; sourceTree = "<group>"; };
 		B3F431952751E23A00C77A1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -166,6 +176,11 @@
 				B3A8EB672759B8EA00B1088F /* PickView.swift */,
 				B3A8EB692759B90800B1088F /* IndicatorView.swift */,
 				B3A8EB6B2759C65A00B1088F /* CustomModifierView.swift */,
+				B3A8EB6D2759CB4100B1088F /* UIKitView.swift */,
+				B3A8EB6F2759ED4F00B1088F /* PropertyWrapperView.swift */,
+				B3A8EB71275A097A00B1088F /* AlertView.swift */,
+				B3A8EB73275A0DA200B1088F /* GridView.swift */,
+				B3A8EB75275A14F600B1088F /* ListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -295,9 +310,14 @@
 				B31D781E275721630054C1F5 /* RichTextView.swift in Sources */,
 				B3A8EB662758D10400B1088F /* ToolBarView.swift in Sources */,
 				B31D780F2755FBF50054C1F5 /* PageRow.swift in Sources */,
+				B3A8EB74275A0DA200B1088F /* GridView.swift in Sources */,
 				B3A8EB602758ACB100B1088F /* TextFieldView.swift in Sources */,
 				B3A8EB6A2759B90800B1088F /* IndicatorView.swift in Sources */,
+				B3A8EB76275A14F600B1088F /* ListView.swift in Sources */,
+				B3A8EB72275A097A00B1088F /* AlertView.swift in Sources */,
+				B3A8EB6E2759CB4100B1088F /* UIKitView.swift in Sources */,
 				B31D780C2755F9B40054C1F5 /* TextView.swift in Sources */,
+				B3A8EB702759ED4F00B1088F /* PropertyWrapperView.swift in Sources */,
 				B31D7821275725EE0054C1F5 /* Person.swift in Sources */,
 				B3A8EB6C2759C65A00B1088F /* CustomModifierView.swift in Sources */,
 				B3F431942751E23A00C77A1A /* HelloSwiftUIApp.swift in Sources */,

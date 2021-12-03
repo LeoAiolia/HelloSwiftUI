@@ -39,13 +39,27 @@ struct ContentView: View {
                     NavigationLink(destination: IndicatorView()) {
                         PageRow(title: "indicatorView", subTitle: "指示器")
                     }
+                }
+                
+                Section(header: Text("自定义")) {
                     NavigationLink(destination: CustomModifierView()) {
                         PageRow(title: "自定义Modifier", subTitle: nil)
                     }
-                }
-                
-                Section(header: Text("B")) {
-                    
+                    NavigationLink(destination: UIKitView()) {
+                        PageRow(title: "使用UIKit控件", subTitle: nil)
+                    }
+                    NavigationLink(destination: PropertyWrapperView()) {
+                        PageRow(title: "属性包装", subTitle: nil)
+                    }
+                    NavigationLink(destination: AlertView()) {
+                        PageRow(title: "alert", subTitle: "还有actionsheet")
+                    }
+                    NavigationLink(destination: GridView()) {
+                        PageRow(title: "GrideView", subTitle: nil)
+                    }
+                    NavigationLink(destination: ListView()) {
+                        PageRow(title: "ListView", subTitle: nil)
+                    }
                 }
             }.listStyle(GroupedListStyle())
                 .navigationBarTitle(Text("Example"), displayMode: .large)
