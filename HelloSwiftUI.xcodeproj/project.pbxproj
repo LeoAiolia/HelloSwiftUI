@@ -19,6 +19,9 @@
 		B3A8EB622758C36500B1088F /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A8EB612758C36500B1088F /* ImageView.swift */; };
 		B3A8EB642758C79700B1088F /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A8EB632758C79700B1088F /* ButtonView.swift */; };
 		B3A8EB662758D10400B1088F /* ToolBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A8EB652758D10400B1088F /* ToolBarView.swift */; };
+		B3A8EB682759B8EA00B1088F /* PickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A8EB672759B8EA00B1088F /* PickView.swift */; };
+		B3A8EB6A2759B90800B1088F /* IndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A8EB692759B90800B1088F /* IndicatorView.swift */; };
+		B3A8EB6C2759C65A00B1088F /* CustomModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A8EB6B2759C65A00B1088F /* CustomModifierView.swift */; };
 		B3F431942751E23A00C77A1A /* HelloSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F431932751E23A00C77A1A /* HelloSwiftUIApp.swift */; };
 		B3F431962751E23A00C77A1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F431952751E23A00C77A1A /* ContentView.swift */; };
 		B3F431982751E23B00C77A1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F431972751E23B00C77A1A /* Assets.xcassets */; };
@@ -43,6 +46,9 @@
 		B3A8EB612758C36500B1088F /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		B3A8EB632758C79700B1088F /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		B3A8EB652758D10400B1088F /* ToolBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarView.swift; sourceTree = "<group>"; };
+		B3A8EB672759B8EA00B1088F /* PickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickView.swift; sourceTree = "<group>"; };
+		B3A8EB692759B90800B1088F /* IndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorView.swift; sourceTree = "<group>"; };
+		B3A8EB6B2759C65A00B1088F /* CustomModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifierView.swift; sourceTree = "<group>"; };
 		B3F431902751E23A00C77A1A /* HelloSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F431932751E23A00C77A1A /* HelloSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftUIApp.swift; sourceTree = "<group>"; };
 		B3F431952751E23A00C77A1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -157,6 +163,9 @@
 				B3A8EB612758C36500B1088F /* ImageView.swift */,
 				B3A8EB632758C79700B1088F /* ButtonView.swift */,
 				B3A8EB652758D10400B1088F /* ToolBarView.swift */,
+				B3A8EB672759B8EA00B1088F /* PickView.swift */,
+				B3A8EB692759B90800B1088F /* IndicatorView.swift */,
+				B3A8EB6B2759C65A00B1088F /* CustomModifierView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -279,6 +288,7 @@
 			files = (
 				B31D781C275619C50054C1F5 /* String++.swift in Sources */,
 				B3A8EB642758C79700B1088F /* ButtonView.swift in Sources */,
+				B3A8EB682759B8EA00B1088F /* PickView.swift in Sources */,
 				B3A8EB5E2758AB1400B1088F /* LabelView.swift in Sources */,
 				B3F431962751E23A00C77A1A /* ContentView.swift in Sources */,
 				B3A8EB622758C36500B1088F /* ImageView.swift in Sources */,
@@ -286,8 +296,10 @@
 				B3A8EB662758D10400B1088F /* ToolBarView.swift in Sources */,
 				B31D780F2755FBF50054C1F5 /* PageRow.swift in Sources */,
 				B3A8EB602758ACB100B1088F /* TextFieldView.swift in Sources */,
+				B3A8EB6A2759B90800B1088F /* IndicatorView.swift in Sources */,
 				B31D780C2755F9B40054C1F5 /* TextView.swift in Sources */,
 				B31D7821275725EE0054C1F5 /* Person.swift in Sources */,
+				B3A8EB6C2759C65A00B1088F /* CustomModifierView.swift in Sources */,
 				B3F431942751E23A00C77A1A /* HelloSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

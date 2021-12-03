@@ -33,6 +33,15 @@ struct ContentView: View {
                     NavigationLink(destination: ToolbarView()) {
                         PageRow(title: "ToolBar", subTitle: "Hello ToolBar")
                     }
+                    NavigationLink(destination: PickView()) {
+                        PageRow(title: "Picker", subTitle: "选择器")
+                    }
+                    NavigationLink(destination: IndicatorView()) {
+                        PageRow(title: "indicatorView", subTitle: "指示器")
+                    }
+                    NavigationLink(destination: CustomModifierView()) {
+                        PageRow(title: "自定义Modifier", subTitle: nil)
+                    }
                 }
                 
                 Section(header: Text("B")) {

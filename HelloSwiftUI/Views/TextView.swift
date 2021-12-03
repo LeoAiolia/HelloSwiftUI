@@ -28,6 +28,20 @@ struct TextView: View {
             
             Text("Stay Hungry, Stay Foolish!")
               .blur(radius: 2) // radius 值越大，模糊效果越重
+            
+            Link("百度", destination: URL(string: "https://www.baidu.com")!)
+            NavigationLink(destination: TextView()){
+                Text("下一页")
+            }
+//            .navigationViewStyle(.columns)
+//
+//            NavigationLink(destination: TextView()){
+//                Text("下一页")
+//            }.navigationViewStyle(.automatic)
+//
+//            NavigationLink(destination: TextView()){
+//                Text("下一页")
+//            }.navigationViewStyle(.stack)
         }
     }
 }
