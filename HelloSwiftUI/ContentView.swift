@@ -60,6 +60,15 @@ struct ContentView: View {
                     NavigationLink(destination: ListView()) {
                         PageRow(title: "ListView", subTitle: nil)
                     }
+                    NavigationLink(destination: GroupView()) {
+                        PageRow(title: "容器", subTitle: "Form Group GroupBox Section ControlGroup")
+                    }
+                    NavigationLink(destination: OutlineGroupView()) {
+                        PageRow(title: "OutlineGroup", subTitle: "outlineGroup")
+                    }
+                    NavigationLink(destination: SafeAreaView()) {
+                        PageRow(title: "SafeAreaView", subTitle: "")
+                    }
                 }
             }.listStyle(GroupedListStyle())
                 .navigationBarTitle(Text("Example"), displayMode: .large)

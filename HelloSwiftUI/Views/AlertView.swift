@@ -9,6 +9,7 @@ import SwiftUI
 
 struct AlertView: View {
     @State private var isShowAlert = false
+    @State private var showDialog = false
 
     var body: some View {
         List {
@@ -21,6 +22,24 @@ struct AlertView: View {
 
             NavigationLink(destination: ShowPartDetail()) {
                 Label("sheet", systemImage: "applelogo")
+            }
+            
+            Section {
+                Button {
+                  showDialog = true
+                } label: {
+                  Text("Show ConfirmationDialog")
+                }
+                .confirmationDialog("ConfirmationDialog", isPresented: $showDialog, actions: {
+                  Button("Option 1", role: .destructive, action: {})
+                  Button("Option 2", action: {})
+                  Button("Option 3", action: {})
+                  Button("Cancel", role: .cancel) {
+                    showDialog = false
+                  }
+                }, message: {
+                  Text("message")
+                })
             }
         }
     }

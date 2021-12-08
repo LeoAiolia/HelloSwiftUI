@@ -27,6 +27,9 @@
 		B3A8EB72275A097A00B1088F /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A8EB71275A097A00B1088F /* AlertView.swift */; };
 		B3A8EB74275A0DA200B1088F /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A8EB73275A0DA200B1088F /* GridView.swift */; };
 		B3A8EB76275A14F600B1088F /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A8EB75275A14F600B1088F /* ListView.swift */; };
+		B3A8EB78275A2C9B00B1088F /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A8EB77275A2C9B00B1088F /* GroupView.swift */; };
+		B3A8EB822760873F00B1088F /* OutlineGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A8EB812760873F00B1088F /* OutlineGroupView.swift */; };
+		B3A8EB8427608A9300B1088F /* SafeAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A8EB8327608A9300B1088F /* SafeAreaView.swift */; };
 		B3F431942751E23A00C77A1A /* HelloSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F431932751E23A00C77A1A /* HelloSwiftUIApp.swift */; };
 		B3F431962751E23A00C77A1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F431952751E23A00C77A1A /* ContentView.swift */; };
 		B3F431982751E23B00C77A1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F431972751E23B00C77A1A /* Assets.xcassets */; };
@@ -59,6 +62,9 @@
 		B3A8EB71275A097A00B1088F /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		B3A8EB73275A0DA200B1088F /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		B3A8EB75275A14F600B1088F /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		B3A8EB77275A2C9B00B1088F /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
+		B3A8EB812760873F00B1088F /* OutlineGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineGroupView.swift; sourceTree = "<group>"; };
+		B3A8EB8327608A9300B1088F /* SafeAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaView.swift; sourceTree = "<group>"; };
 		B3F431902751E23A00C77A1A /* HelloSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F431932751E23A00C77A1A /* HelloSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftUIApp.swift; sourceTree = "<group>"; };
 		B3F431952751E23A00C77A1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -181,6 +187,9 @@
 				B3A8EB71275A097A00B1088F /* AlertView.swift */,
 				B3A8EB73275A0DA200B1088F /* GridView.swift */,
 				B3A8EB75275A14F600B1088F /* ListView.swift */,
+				B3A8EB77275A2C9B00B1088F /* GroupView.swift */,
+				B3A8EB812760873F00B1088F /* OutlineGroupView.swift */,
+				B3A8EB8327608A9300B1088F /* SafeAreaView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -302,7 +311,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B31D781C275619C50054C1F5 /* String++.swift in Sources */,
+				B3A8EB8427608A9300B1088F /* SafeAreaView.swift in Sources */,
 				B3A8EB642758C79700B1088F /* ButtonView.swift in Sources */,
+				B3A8EB78275A2C9B00B1088F /* GroupView.swift in Sources */,
 				B3A8EB682759B8EA00B1088F /* PickView.swift in Sources */,
 				B3A8EB5E2758AB1400B1088F /* LabelView.swift in Sources */,
 				B3F431962751E23A00C77A1A /* ContentView.swift in Sources */,
@@ -321,6 +332,7 @@
 				B31D7821275725EE0054C1F5 /* Person.swift in Sources */,
 				B3A8EB6C2759C65A00B1088F /* CustomModifierView.swift in Sources */,
 				B3F431942751E23A00C77A1A /* HelloSwiftUIApp.swift in Sources */,
+				B3A8EB822760873F00B1088F /* OutlineGroupView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

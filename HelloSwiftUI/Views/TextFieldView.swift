@@ -18,7 +18,7 @@ struct TextFieldView: View {
         return List {
             if #available(macCatalyst 15.0, *) {
                 Section(header: EmptyView()) {
-                    Text("s1: \(s1)")
+                    Text("s1: \(s1)") + Text("default")
                     TextField("TextField", text: $s1).onSubmit(of: .text) {
                         print("return s1: \(s1)")
                     }
@@ -27,6 +27,7 @@ struct TextFieldView: View {
             
             Section(header: EmptyView()) {
                 GroupBox(label: Text("s2: \(s2)")) {
+                    Text("roundedBorder")
                     TextField("Observe TextField", text: $s2) { isEditing in
                         print("isEditing: \(isEditing)")
                     }.textFieldStyle(.roundedBorder)
@@ -38,9 +39,10 @@ struct TextFieldView: View {
                 }
             }
             
-            GroupBox(label: Text(String(s3))) {
+            GroupBox(label: Text("s3: \(String(s3))")) {
+             Text("Formatter TextField")
               /// 3
-              TextField("Formatter TextField", value: $s3, formatter: NumberFormatter()) {
+              TextField("placeholder", value: $s3, formatter: NumberFormatter()) {
                 (isEditing) in
                 print(isEditing)
               } onCommit: {
@@ -51,11 +53,13 @@ struct TextFieldView: View {
             }
 
             GroupBox(label: Text("密码输入: \(pwd)")) {
+                
+                Text("SecureField: plain")
               /// 密码输入
                 SecureField("Password", text: $pwd).textFieldStyle(.plain)
             }
             
-            GroupBox(label: Text("备注")) {
+            GroupBox(label: Text("备注(TextEditorView)")) {
                 TextEditorView(placeholder: "请输入")
             }
         }
