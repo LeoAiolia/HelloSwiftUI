@@ -33,15 +33,33 @@ struct TextView: View {
             NavigationLink(destination: TextView()){
                 Text("下一页")
             }
-//            .navigationViewStyle(.columns)
-//
-//            NavigationLink(destination: TextView()){
-//                Text("下一页")
-//            }.navigationViewStyle(.automatic)
-//
-//            NavigationLink(destination: TextView()){
-//                Text("下一页")
-//            }.navigationViewStyle(.stack)
+            
+            HStack {
+                Text("Hello")
+                Text("World")
+                Text("Stay Hungry, Stay Foolish")
+                Text("--放假啊收到了服科技啊上冻老费劲啊今天天气不赖")
+            }.lineLimit(1)
+             .font(.title3)
+            HStack {
+                Text("Hello")
+                Text("World")
+                Text("Stay Hungry, Stay Foolish")
+                Text("1233放假啊收到了服科技啊上冻老费劲啊今天天气不赖").layoutPriority(1)
+            }.lineLimit(1)
+             .font(.title3)
+            
+            Text("Stay Hungry, Stay Foolish")
+//              .fixedSize()
+              .font(.title)
+              .frame(width: 200, height: 50)
+              .border(Color.blue)
+            
+            Text("Stay Hungry, Stay Foolish")
+              .fixedSize()
+              .font(.title)
+              .frame(width: 200, height: 50)
+              .border(Color.blue)
         }
     }
 }

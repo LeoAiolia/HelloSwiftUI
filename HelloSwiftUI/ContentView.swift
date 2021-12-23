@@ -69,6 +69,21 @@ struct ContentView: View {
                     NavigationLink(destination: SafeAreaView()) {
                         PageRow(title: "SafeAreaView", subTitle: "")
                     }
+                    NavigationLink(destination: EquatableViewDemo()) {
+                        PageRow(title: "EquatableViewDemo", subTitle: "合理使用EquatableView")
+                    }
+                }
+                
+                Section("layout") {
+                    NavigationLink(destination: CustomAlignmentView()) {
+                        PageRow(title: "CustomAlignmentView", subTitle: "自定义alignment")
+                    }
+                    NavigationLink(destination: GeometryReaderView()) {
+                        PageRow(title: "GeometryReaderView", subTitle: "自定义布局信息")
+                    }
+                    NavigationLink(destination: PreferencekeyView()) {
+                        PageRow(title: "PreferencekeyView", subTitle: "Preferencekey")
+                    }
                 }
             }.listStyle(GroupedListStyle())
                 .navigationBarTitle(Text("Example"), displayMode: .large)
