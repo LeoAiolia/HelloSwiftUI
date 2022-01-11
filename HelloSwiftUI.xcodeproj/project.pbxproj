@@ -18,7 +18,7 @@
 		B376F75D277460800000FDB8 /* CustomAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B376F75C277460800000FDB8 /* CustomAlignment.swift */; };
 		B376F75F277468520000FDB8 /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B376F75E277468520000FDB8 /* GeometryReaderView.swift */; };
 		B376F76127746B850000FDB8 /* PreferencekeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B376F76027746B850000FDB8 /* PreferencekeyView.swift */; };
-		B376F76627747CB90000FDB8 /* Hello.m in Sources */ = {isa = PBXBuildFile; fileRef = B376F76527747CB90000FDB8 /* Hello.m */; };
+		B376F769277489C50000FDB8 /* Subscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B376F768277489C50000FDB8 /* Subscriber.swift */; };
 		B3A8EB5E2758AB1400B1088F /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A8EB5D2758AB1400B1088F /* LabelView.swift */; };
 		B3A8EB602758ACB100B1088F /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A8EB5F2758ACB100B1088F /* TextFieldView.swift */; };
 		B3A8EB622758C36500B1088F /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A8EB612758C36500B1088F /* ImageView.swift */; };
@@ -57,9 +57,7 @@
 		B376F75C277460800000FDB8 /* CustomAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlignment.swift; sourceTree = "<group>"; };
 		B376F75E277468520000FDB8 /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
 		B376F76027746B850000FDB8 /* PreferencekeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencekeyView.swift; sourceTree = "<group>"; };
-		B376F76327747CB90000FDB8 /* HelloSwiftUI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloSwiftUI-Bridging-Header.h"; sourceTree = "<group>"; };
-		B376F76427747CB90000FDB8 /* Hello.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hello.h; sourceTree = "<group>"; };
-		B376F76527747CB90000FDB8 /* Hello.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hello.m; sourceTree = "<group>"; };
+		B376F768277489C50000FDB8 /* Subscriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscriber.swift; sourceTree = "<group>"; };
 		B3A8EB5C2758A57500B1088F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B3A8EB5D2758AB1400B1088F /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
 		B3A8EB5F2758ACB100B1088F /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
@@ -137,14 +135,12 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		B376F76227747C920000FDB8 /* oc */ = {
+		B376F767277489A70000FDB8 /* Combine */ = {
 			isa = PBXGroup;
 			children = (
-				B376F76427747CB90000FDB8 /* Hello.h */,
-				B376F76527747CB90000FDB8 /* Hello.m */,
-				B376F76327747CB90000FDB8 /* HelloSwiftUI-Bridging-Header.h */,
+				B376F768277489C50000FDB8 /* Subscriber.swift */,
 			);
-			path = oc;
+			path = Combine;
 			sourceTree = "<group>";
 		};
 		B3F431872751E23A00C77A1A = {
@@ -170,11 +166,11 @@
 			children = (
 				B3A8EB5C2758A57500B1088F /* Info.plist */,
 				B31D780A2755F6BC0054C1F5 /* HelloSwiftUI.entitlements */,
-				B376F76227747C920000FDB8 /* oc */,
 				B31D7816275602960054C1F5 /* Localizable.strings */,
 				B31D780D2755FBBF0054C1F5 /* Widget */,
 				B3F431A12751E42000C77A1A /* Views */,
 				B3F431932751E23A00C77A1A /* HelloSwiftUIApp.swift */,
+				B376F767277489A70000FDB8 /* Combine */,
 				B31D781F275725DB0054C1F5 /* Model */,
 				B31D781A275619B40054C1F5 /* Utils */,
 				B3F431952751E23A00C77A1A /* ContentView.swift */,
@@ -356,7 +352,6 @@
 				B376F75B27745CA20000FDB8 /* EquatableViewDemo.swift in Sources */,
 				B3A8EB76275A14F600B1088F /* ListView.swift in Sources */,
 				B3A8EB72275A097A00B1088F /* AlertView.swift in Sources */,
-				B376F76627747CB90000FDB8 /* Hello.m in Sources */,
 				B3A8EB6E2759CB4100B1088F /* UIKitView.swift in Sources */,
 				B376F75F277468520000FDB8 /* GeometryReaderView.swift in Sources */,
 				B31D780C2755F9B40054C1F5 /* TextView.swift in Sources */,
@@ -366,6 +361,7 @@
 				B3A8EB6C2759C65A00B1088F /* CustomModifierView.swift in Sources */,
 				B3F431942751E23A00C77A1A /* HelloSwiftUIApp.swift in Sources */,
 				B3A8EB822760873F00B1088F /* OutlineGroupView.swift in Sources */,
+				B376F769277489C50000FDB8 /* Subscriber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,7 +527,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "HelloSwiftUI/oc/HelloSwiftUI-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -569,7 +564,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "HelloSwiftUI/oc/HelloSwiftUI-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
